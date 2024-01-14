@@ -1,0 +1,35 @@
+.ticketNumber h1 {
+  color: #1c1c28;
+   font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+}
+.ticketNumber .ss {
+    width: 2rem;
+height: 2rem;
+
+}
+.icon-div{
+    width: 32px;
+height: 32px;
+border-radius: 8px;
+background: #E7EAED;
+}
+.icon-div i {
+  
+width: 12.912px;
+height: 12.912px;
+align-items: center;
+
+}
+.editBtn{
+    background-color: #F9F9F9;
+    border-radius: 4px;
+border: 1px solid #E9EAEA;
+}
+.editBtn i {
+    color: #8A74F9;
+    width:1.125rem;
+    height: 1.125rem;
+}

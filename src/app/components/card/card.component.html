@@ -1,0 +1,97 @@
+<!-- <section id="coupon" class="bg-info text-center my-2 py-3">
+<div class="row text-center d-flex flex-column justify-content-center align-items-center">
+        <div class="coupon-copyText text-center ">
+         <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-md-3">
+                <div class="coupon-trash">
+
+                <i class="pi pi-trash"></i>
+                </div>
+            </div>
+            
+            
+            <div class="col-md-9">
+                <div class="coupon-desc text-center">
+                    <h2 class="text-center">عرض التذكرة الخاصة بالفيلم </h2>
+                </div>
+
+            </div>
+
+         </div>
+            <input type="text" class="w-25 form-control">
+            <h5>فعال حتى 15 يوليو 2023</h5>
+        </div>
+
+    <div class="col-md-6"></div>
+</div>
+</section> -->
+
+
+<div class="coupon rounded shadow my-3 ">
+<div class="coupon-caption">
+    <div class="coupon-delete">
+        <div class="row  d-flex  align-items-center justify-content-evenly">
+
+            <div class="col-md-4 col-sm-12 text-center">
+                <div class="delete-item p-3">
+
+                    <i class="pi pi-trash text-white py-2" pTooltip="حذف" ></i>
+                </div>
+            </div>
+            <div class="col-md-8  col-sm-12 text-center">
+                <div class="filmTicket">
+
+                    <span class="text-center py-2 mx-auto"> عرض التذكرة الخاصة بالفيلم </span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="flex flex-wrap justify-content-center align-items-center text-center">
+        <span class="p-input-icon-left">
+            <i class="pi pi-copy" (click)="copyText()"></i>
+            <input type="text" pInputText [(ngModel)]="value1" />
+        </span>
+    </div>
+ 
+    <!-- <input type="text" class="form-control w-50 mx-auto py-2" > -->
+    <h3 class="my-4">فعال حتي 15 يوليو 2023</h3>
+</div>
+<div class="circle1"></div>
+<div class="circle2"></div>
+<div class="dashed-line">
+    
+</div>
+<div class="row justify-content-between align-items-center text-end m-3 justify-content-sm-between ">
+    <div class="col-md-2 col-sm-6 justify-content-md-between text-md-center r">
+        <div class="qrDiv ">
+            <div class="div-qrImage ">
+      
+                <qrcode [width]="50"  [qrdata]="myAngularxQrCode"  [errorCorrectionLevel]="'M'"></qrcode>
+            </div>
+    
+        </div>
+    
+    </div>
+    <div class="col-md-6 col-sm-6 ">
+        <div class="div-caption">
+            <h4>خصم</h4>
+            <div class="row d-flex align-items-center justify-content-evenly">
+                <div class="col-md-7"> 
+                    <button class="btn shareBtn">
+                    مشاركة
+                    <i class="pi pi-send"></i>
+                </button></div>
+                <div class="col-md-4"> <span>25%</span></div>
+            </div>
+         
+           
+        </div>
+    </div>
+
+
+  
+</div>
+
+</div>

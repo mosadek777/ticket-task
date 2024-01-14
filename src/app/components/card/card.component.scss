@@ -1,0 +1,91 @@
+.coupon {
+    background:linear-gradient(135deg,#7158fe,#9d4de6);
+    position: relative;
+    overflow: hidden;
+}
+
+
+.coupon-caption
+.coupon-delete span {
+  color: #fff;
+
+  text-align: center;
+  font-family: Neo Sans Arabic;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+
+}
+.coupon-caption h3{
+    color: #FFF;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+  }
+
+
+  .circle1,.circle2{
+    background-color: #fff;
+    width: 3.12rem;
+    height: 3.12rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+}
+.circle1{
+    left:-1.5rem
+}
+.circle2{
+    right:-1.5rem
+}
+
+.dashed-line{
+    border-top: 5px dashed rgba( 255, 255, 255, 0.40);
+    height: 2%;
+    position: absolute;
+    top: 50%;
+   width: 100%;
+   z-index: 1;
+
+}
+
+
+.div-caption h4{
+    color: #FFF;
+
+   font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+ .div-caption h5{
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.qrcode{
+    width: 100% !important;
+}
+.shareBtn{
+    border: 1px solid wheat;
+    color: #FFF;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.div-caption h4{
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
